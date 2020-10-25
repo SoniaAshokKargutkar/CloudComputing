@@ -65,7 +65,7 @@ def create_instance(compute, project, zone, name, bucket):
 
         # Allow the instance to access cloud storage and logging.
         'serviceAccounts': [{
-            'email': '215954567309-compute@developer.gserviceaccount.com',
+            'email': 'cloud-mapreduce-sk@sonia-kargutkar.iam.gserviceaccount.com',
             'scopes': [
                 'https://www.googleapis.com/auth/devstorage.read_write',
                 'https://www.googleapis.com/auth/logging.write',

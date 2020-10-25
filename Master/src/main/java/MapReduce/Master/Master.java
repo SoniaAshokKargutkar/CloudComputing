@@ -276,7 +276,7 @@ public class  Master
 
     	try {
     		
-			startinstance.startInstances(instanceslist, "aneri-shah-291514", "southamerica-east1-a");
+			startinstance.startInstances(instanceslist, "sonia-kargutkar", "southamerica-east1-a");
 		} catch (IOException | GeneralSecurityException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -293,7 +293,7 @@ public class  Master
 				try {
 					
 					Gcloudstopinstance stopinstance=new Gcloudstopinstance();
-					stopinstance.stopInstances(instancesList, "aneri-shah-291514", "southamerica-east1-a");
+					stopinstance.stopInstances(instancesList, "sonia-kargutkar", "southamerica-east1-a");
 				} catch (IOException | GeneralSecurityException e) {
 					System.out.println("Exception-"+e);
 				}
@@ -309,7 +309,7 @@ public class  Master
 				//GCPmapreduce.master.Server1.startServer(kvpIP,PORTNUMBEROFKEYVALUEPAIR);
 				
 				try {
-					Gcloudstartinstance.startInstances(instancesList, "aneri-shah-291514", "southamerica-east1-a");
+					Gcloudstartinstance.startInstances(instancesList, "sonia-kargutkar", "southamerica-east1-a");
 					
 				} catch (IOException | GeneralSecurityException e) {
 					// TODO Auto-generated catch block
